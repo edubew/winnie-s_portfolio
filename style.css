@@ -252,7 +252,8 @@ ul {
   list-style: none;
 }
 
-ul, li {
+ul,
+li {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -383,15 +384,14 @@ ul, li {
 
 .bottom-divider {
   width: 327px;
-  height: 1px;
+  height: 17px;
   left: 0;
-  top: 600.15px;
-  padding-left: 40px;
+  top: 194px;
   flex: none;
-  order: 3;
+  order: 1;
   flex-grow: 0;
-  margin: 24px 0;
-  margin-top: auto;
+  margin-top: 80px;
+  padding-left: 42px;
 }
 
 .resources-container {
@@ -416,7 +416,6 @@ ul, li {
   align-items: center;
   justify-content: space-evenly;
   padding: 0;
-  position: static;
   width: 200px;
   height: 40px;
   left: 0;
