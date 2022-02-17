@@ -24,7 +24,7 @@ nav > img {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .logo {
@@ -43,7 +43,7 @@ nav > img {
   height: 16px;
   left: 12px;
   top: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -57,7 +57,7 @@ nav > img {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0 0;
+  margin: 0;
 }
 
 .header-container {
@@ -76,7 +76,7 @@ nav > img {
   background-color: #edecff;
   margin-left: -80px;
   filter: blur(30px);
-  background-image: url(IMG1/Ellipse1.jpg);
+  background-image: url("IMG1/Ellipse1.jpg");
 }
 
 .header-container > h1 {
@@ -85,7 +85,7 @@ nav > img {
   left: 0;
   top: 0;
   padding-left: 53px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -105,7 +105,7 @@ nav > img {
   left: 0;
   top: 67px;
   padding-left: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -145,7 +145,7 @@ nav > img {
   left: 0;
   top: 0;
   padding-left: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -215,7 +215,7 @@ nav > img {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -237,7 +237,7 @@ nav > img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 7.16667px;
+  padding: 0 7.1667px;
   width: 111.08px;
   height: 128.67px;
   left: 0;
@@ -254,7 +254,7 @@ ul {
 
 ul,
 li {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -284,7 +284,7 @@ li {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -306,7 +306,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 7.74194px;
+  padding: 0 7.7419px;
   position: static;
   width: 120px;
   height: 175.48px;
@@ -349,7 +349,7 @@ li {
   height: 16px;
   left: 8px;
   top: 5.33px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
