@@ -1,6 +1,9 @@
-# Portfolio
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# Portfolio
 > Portfolio setup and mobile version skeleton.
+
+![Screenshot](./images/portfolio.png)
 
 
 ## Built With
