@@ -252,8 +252,7 @@ ul {
   list-style: none;
 }
 
-ul,
-li {
+ul, li {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
