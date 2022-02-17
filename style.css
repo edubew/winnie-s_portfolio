@@ -16,7 +16,7 @@ header {
   justify-content: space-between;
 }
 
-nav > img {
+nav img {
   left: 12.12%;
   right: 12.12%;
   top: 12.12%;
@@ -38,7 +38,7 @@ nav > img {
   top: calc(50% - 36px / 2);
 }
 
-.logo > a {
+.logo a {
   width: 81px;
   height: 16px;
   left: 12px;
@@ -79,7 +79,7 @@ nav > img {
   background-image: url("IMG1/Ellipse1.jpg");
 }
 
-.header-container > h1 {
+.header-container h1 {
   width: 327px;
   height: 55px;
   left: 0;
@@ -99,7 +99,7 @@ nav > img {
   margin: 12px 0;
 }
 
-.header-container > h2 {
+.header-container h2 {
   width: 327px;
   height: 87px;
   left: 0;
@@ -110,9 +110,6 @@ nav > img {
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-
-  /* or 137% */
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -138,7 +135,7 @@ nav > img {
   margin: 40px 0;
 }
 
-.intro-container > p {
+.intro-container p {
   display: flex;
   width: 327px;
   height: 170px;
@@ -210,7 +207,7 @@ nav > img {
   top: 0;
 }
 
-.language-container > h1 {
+.language-container h1 {
   width: 107px;
   height: 16px;
   left: 8px;
@@ -279,7 +276,7 @@ li {
   margin: 0 24px;
 }
 
-.frameworks-container > h1 {
+.frameworks-container h1 {
   width: 140px;
   height: 16px;
   left: 8px;
@@ -344,7 +341,7 @@ li {
   margin-bottom: 0;
 }
 
-.skills-container > h1 {
+.skills-container h1 {
   width: 106px;
   height: 16px;
   left: 8px;
