@@ -75,7 +75,7 @@ nav img {
   margin-top: -160px;
   background-color: #edecff;
   margin-left: -80px;
-  filter: blur(30px);
+  filter: blur(20px);
   background-image: url("IMG1/Ellipse1.jpg");
 }
 
@@ -164,7 +164,7 @@ nav img {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 80px;
+  margin-top: auto;
   padding-left: 42px;
 }
 
@@ -194,6 +194,7 @@ nav img {
   height: 214.15px;
   left: 0;
   top: 0;
+  margin-bottom: auto;
 }
 
 .language-container {
@@ -217,9 +218,6 @@ nav img {
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
-
-  /* or 200% */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -256,8 +254,6 @@ li {
   font-weight: normal;
   font-size: 15px;
   line-height: 31px;
-
-  /* or 160% */
   color: #f5f5ff;
 }
 
@@ -286,9 +282,6 @@ li {
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
-
-  /* or 200% */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -338,7 +331,7 @@ li {
   order: 1;
   flex-grow: 0;
   margin: 24px 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .skills-container h1 {
@@ -351,9 +344,6 @@ li {
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
-
-  /* or 200% */
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -385,10 +375,11 @@ li {
   left: 0;
   top: 194px;
   flex: none;
-  order: 1;
+  order: -1;
   flex-grow: 0;
-  margin-top: 80px;
-  padding-left: 42px;
+  margin-top: -50px;
+  margin-left: auto;
+  padding-left: 30px;
 }
 
 .resources-container {
@@ -413,6 +404,7 @@ li {
   align-items: center;
   justify-content: space-evenly;
   padding: 0;
+  position: static;
   width: 200px;
   height: 40px;
   left: 0;
@@ -421,6 +413,8 @@ li {
   order: 0;
   flex-grow: 0;
   margin: 24px 0;
+  margin-bottom: auto;
+  padding-left: 50%;
 }
 
 .work-image {
@@ -428,7 +422,6 @@ li {
   flex-direction: row;
   align-items: center;
   padding: 4px 0;
-  position: static;
   width: 77px;
   height: 40px;
   left: 61.5px;
@@ -437,4 +430,6 @@ li {
   order: 1;
   flex-grow: 0;
   margin: 24px 0;
+  position: static;
+  padding-left: 70px;
 }
