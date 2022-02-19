@@ -8,6 +8,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  width: 375px;
 }
 
 nav img {
@@ -59,7 +60,6 @@ nav img {
   flex-direction: column;
   align-items: center;
   padding: 0;
-  width: 327px;
   height: 154px;
 }
 
@@ -74,7 +74,6 @@ nav img {
 }
 
 .header-container h1 {
-  width: 327px;
   height: 55px;
   left: 0;
   top: 0;
@@ -94,7 +93,6 @@ nav img {
 }
 
 .header-container h2 {
-  width: 327px;
   height: 87px;
   left: 0;
   top: 67px;
@@ -119,7 +117,6 @@ nav img {
   flex-direction: column;
   align-items: center;
   padding: 0;
-  width: 327px;
   height: 738.15px;
   left: calc(50% - 327px / 2);
   top: 314px;
@@ -151,7 +148,6 @@ nav img {
 }
 
 .top-divider {
-  width: 327px;
   height: 17px;
   left: 0;
   top: 194px;
@@ -363,7 +359,6 @@ li {
 }
 
 .bottom-divider {
-  width: 327px;
   height: 17px;
   left: 0;
   top: 194px;
@@ -406,23 +401,18 @@ li {
   order: 0;
   flex-grow: 0;
   margin: 24px 0;
-  margin-bottom: 24px;
+  margin-bottom: -80px;
   padding-left: 50%;
 }
 
 .work-image {
-  display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 4px 0;
   width: 77px;
   height: 40px;
   left: 61.5px;
   top: 64px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 24px 0;
+  margin-top: -20px;
   position: static;
 }
 
@@ -431,10 +421,9 @@ li {
   flex-direction: column;
   align-items: center;
   padding: 120px 0;
-  width: 375px;
   height: 3461px;
   left: 0;
-  margin-top: 0;
+  margin-top: -180px;
 }
 
 .title-container {
@@ -443,7 +432,6 @@ li {
   align-items: center;
   padding: 0 24px;
   position: static;
-  width: 375px;
   height: 145px;
   left: 0;
   top: 120px;
@@ -453,8 +441,7 @@ li {
   margin: 40px 0;
 }
 
-.title-container h1 {
-  width: 327px;
+.title-container h2 {
   height: 104px;
   left: 24px;
   top: 0;
@@ -487,7 +474,6 @@ li {
   align-items: center;
   padding: 0;
   position: static;
-  width: 327px;
   height: 3036px;
   left: 24px;
   top: 305px;
@@ -499,7 +485,6 @@ li {
 
 .image-placeholder {
   position: static;
-  width: 327px;
   height: 236px;
   left: 0;
   top: 0;
@@ -515,17 +500,17 @@ li {
   background-image: url("IMG1/bg-image2.png");
   width: 39.61px;
   height: 482.57px;
-  left: -112.04px;
+  left: -50.04px;
+  margin-top: -180px;
   top: 1624.71px;
   background-color: #edecff;
-  filter: blur(50px);
+  filter: blur(20px);
   transform: rotate(-36.38deg);
   z-index: 0;
 }
 
-.text-area h1 {
+.text-area h2 {
   position: relative;
-  width: 327px;
   height: 105px;
   left: 0;
   top: 0;
@@ -576,8 +561,12 @@ li {
 
 .border-right {
   border-right: 1px solid #646369;
-  padding-left: 1px;
   padding-left: 12px;
+}
+
+.border-left {
+  padding-right: 12px;
+  padding-left: 10px;
 }
 
 .list-tags > div {
@@ -603,19 +592,26 @@ button {
   color: #f5f5ff;
   border: #7d73fc;
   font-family: Roboto, sans-serif;
+  transition: 0.6s;
+}
+
+button:hover {
+  background-color: #7d73fc;
+  color: #f5f5ff;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
 .background-img2 {
   position: absolute;
-  margin-right: 30px;
-  margin-top: 200px;
+  margin-top: -100px;
   background-image: url("IMG1/bg-image3.png");
-  width: 70.28px;
+  width: 60.28px;
   height: 261.6px;
-  left: 447.27px;
+  left: 300.27px;
   top: 2437.23px;
   background-color: #edecff;
-  filter: blur(50px);
+  filter: blur(20px);
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
 }
 
@@ -623,7 +619,7 @@ button {
   position: absolute;
   width: 308px;
   height: 155px;
-  margin-top: 270px;
+  margin-top: -65px;
   left: -93px;
   top: 3274px;
   background-image: url("IMG1/bg-image4.png");
@@ -633,14 +629,14 @@ button {
 
 .background-img4 {
   position: absolute;
-  width: 90.29px;
-  margin-top: 300px;
-  height: 295.04px;
-  margin-right: -112px;
-  left: 258.22px;
+  width: 70.29px;
+  margin-top: 0;
+  height: 198.04px;
+  margin-right: -80px;
+  left: 420.22px;
   top: 4023px;
   background-image: url("IMG1/bg-image5.png");
   background-color: #edecff;
-  filter: blur(30px);
+  filter: blur(20px);
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
 }
