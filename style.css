@@ -1,14 +1,14 @@
 body {
   background-color: #191765;
-  margin: 0 auto;
   width: 375px;
   height: 5415px;
+  position: relative;
+  margin: 0 auto;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  width: 375px;
 }
 
 nav img {
@@ -73,7 +73,7 @@ nav img {
   background-image: url("IMG1/Ellipse1.jpg");
 }
 
-.header-container h1 {
+.header-container h2 {
   height: 55px;
   left: 0;
   top: 0;
@@ -92,7 +92,7 @@ nav img {
   margin: 12px 0;
 }
 
-.header-container h2 {
+.header-container h3 {
   height: 87px;
   left: 0;
   top: 67px;
