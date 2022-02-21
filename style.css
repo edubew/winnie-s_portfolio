@@ -244,6 +244,7 @@ li {
   font-size: 15px;
   line-height: 31px;
   color: #f5f5ff;
+  display: inline;
 }
 
 .frameworks-container {
@@ -547,14 +548,16 @@ li {
   z-index: 999;
 }
 
-.list-tags {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  align-items: center;
+.list-tags  {
+   /* display: grid;
+   grid-template-columns: auto auto auto auto;  */
+   /* align-items: center;  */
+  float: left;
   padding: 1px;
-  position: static;
+  /* position: static; */
   height: 40px;
   left: 0;
+  width: 100%;
   top: 357px;
   margin: 24px 0;
 }
@@ -568,7 +571,7 @@ li {
   padding-right: 12px;
   padding-left: 10px;
 }
-
+/* 
 .list-tags > div {
   width: 32px;
   height: 20px;
@@ -584,7 +587,7 @@ li {
   order: 0;
   flex-grow: 0;
   margin: 0 0;
-}
+} */
 
 button {
   background-color: #7d73fc;
