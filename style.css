@@ -401,19 +401,14 @@ textarea {
     line-height: 29.33px;
   }
 
-   .social-media-container {
+  .social-media-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 0;
     justify-content: space-between;
-     align-items: center;
-  }
-
-  .work-image1 > img {
-    justify-content: flex-start; 
-
+    align-items: center;
   }
 
   .main-content-area {
