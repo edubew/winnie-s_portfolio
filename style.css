@@ -230,13 +230,10 @@ button:hover {
 
 .form-container {
   margin-top: 120px;
-  padding: 20px;
 }
 
 .form-intro h3 {
   height: 35px;
-  left: 0;
-  top: 0;
   margin: 24px 0;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -352,8 +349,7 @@ textarea {
 
   .first-section {
     background-image: url("IMG1/desktop-background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 
   .header-container h2 {
@@ -379,10 +375,6 @@ textarea {
     margin: 0 33%;
   }
 
-  .top-divider {
-    width: 120%;
-  }
-
   .intro-container p {
     font-size: 20px;
     line-height: 32px;
@@ -398,6 +390,9 @@ textarea {
     grid-column-gap: 0;
     grid-row-gap: 0;
     margin-top: 4px;
+    justify-content: center;
+    border-top: 1px solid #646369;
+    border-bottom: 1px solid #646369;
   }
 
   .title {
@@ -406,20 +401,19 @@ textarea {
     line-height: 29.33px;
   }
 
-  .social-media-container {
+   .social-media-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 0;
-    align-items: center;
-    margin: 0 -200px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+     align-items: center;
   }
 
-  .work-image1 {
-    display: flex;
-    justify-content: center;
+  .work-image1 > img {
+    justify-content: flex-start; 
+
   }
 
   .main-content-area {
@@ -440,7 +434,7 @@ textarea {
   .projects-container {
     display: flex;
     align-items: center;
-    margin: 100px;
+    margin: 40px 100px;
   }
 
   .projects-container:nth-child(even) {
@@ -453,10 +447,6 @@ textarea {
     text-align: center;
   }
 
-  .projects-container:nth-child(odd) > p {
-    padding-right: 32px;
-  }
-
   .image-placeholder > img {
     width: 448px;
   }
@@ -466,7 +456,7 @@ textarea {
   }
 
   .form-container {
-    padding: 114px;
+    padding: 0 114px;
   }
 
   .form-intro > h3 {
