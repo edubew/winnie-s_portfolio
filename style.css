@@ -335,11 +335,6 @@ textarea {
     margin-left: 15px;
   }
 
-  .first-section {
-    background-image: url('IMG1/desktop-background.png');
-    background-size: contain;
-  }
-
   .header-container {
     display: flex;
     flex-direction: column;
@@ -409,6 +404,7 @@ textarea {
   .bottom-divider {
     display: none;
   }
+
   .title {
     font-weight: 700;
     font-size: 18px;
@@ -442,10 +438,6 @@ textarea {
     gap: 12px;
     margin: 12px;
     padding: 0;
-  }
-
-  .social-media-container {
-    position: relative;
   }
 
   .work-image2 {
@@ -632,7 +624,7 @@ textarea {
 
   .social-media-container {
     position: relative;
-    width: 60vw;
+    width: 80vw;
     display: grid;
     grid-template-columns: 24% calc(100% - 48%) 24%;
     grid-template-rows: 1fr;
@@ -658,11 +650,6 @@ textarea {
     gap: 12px;
     margin: 12px;
     padding: 0;
-  }
-
-  .social-media-container {
-    position: relative;
-    width: 80vw;
   }
 
   .work-image2 {
