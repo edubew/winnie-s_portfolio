@@ -11,7 +11,7 @@
 - LINTERS
 
 ## Live Demo
-[Winnie's Portfolio](https://github.com/edubew/winnie-s_portfolio/)
+[Winnie's Portfolio](https://edubew.github.io/winnie-s/portfolio/)
 
 ## Requirements
 
