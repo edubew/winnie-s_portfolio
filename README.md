@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
-> Portfolio setup for desktop version with media queries.
+> This is my Portfolio
 
 
 ## Built With
@@ -10,13 +10,34 @@
 - CSS
 - LINTERS
 
+## Live Demo
+[Winnie's Portfolio](https://github.com/edubew/winnie-s_portfolio/)
+
+## Requirements
+
+> To view this project you need the following:
+- Github account
+- Code editor
+- Git
+
+## Setup
+- git init
+- git clone https://github.com/edubew/winnie-s_portfolio.git
+
+
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/edubew)
-- Twitter: [@twitterhandle](https://twitter.com/@edube_winne)
+- GitHub: @edubew
+- Twitter: @edube_winne
 - LinkedIn: [LinkedIn](https://linkedin.com/in/winfred-edube-9820a422a/)
+
+## Colaborator
+
+- GitHub: @TahenyBELGUITH
+- Twitter: @BelguithTaheny
+- LinkedIn: belguith taheny
 
 ## 🤝 Contributing
 
