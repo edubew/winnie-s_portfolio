@@ -12,9 +12,6 @@
 - CSS
 - LINTERS
 
-## Live Demo
-[Winnie's Portfolio](https://edubew.github.io/winnie-s_portfolio/)
-
 ## Requirements
 
 > To view this project you need the following:
