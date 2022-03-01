@@ -4,6 +4,8 @@
 > This is my Portfolio
 
 
+![Screenshot](./IMG1/my-portolio.PNG/)
+
 ## Built With
 
 - HTML
@@ -11,7 +13,7 @@
 - LINTERS
 
 ## Live Demo
-[Winnie's Portfolio](https://edubew.github.io/winnie-s/portfolio/)
+[Winnie's Portfolio](https://edubew.github.io/winnie-s_portfolio/)
 
 ## Requirements
 
