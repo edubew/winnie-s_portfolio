@@ -212,8 +212,8 @@ li {
 }
 
 button {
-  background-color: #7d73fc;
-  padding: 10px;
+  background-color: #1909fd;
+  padding: 20px;
   color: #f5f5ff;
   border: #7d73fc;
   font-family: Roboto, sans-serif;
@@ -262,6 +262,12 @@ form {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #646369;
+}
+
+label{
+  font-size: 18px;
+  color: #f5f5ff;
+  font-weight: 600;
 }
 
 input[type='text'] {
