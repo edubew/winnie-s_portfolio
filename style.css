@@ -264,12 +264,6 @@ form {
   border-bottom: 1px solid #646369;
 }
 
-label {
-  font-size: 18px;
-  color: #f5f5ff;
-  font-weight: 600;
-}
-
 input[type='text'] {
   width: 100%;
   padding: 12px 16px;
