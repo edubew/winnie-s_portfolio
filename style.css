@@ -301,9 +301,8 @@ textarea {
 
 .form-button:hover {
   background-color: #6d62fff0;
-  color: #f5f5ff;
+  color: #fff;
   cursor: pointer;
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   width: 89px;
   height: 48px;
 }
