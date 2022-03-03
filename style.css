@@ -303,8 +303,7 @@ textarea {
   background-color: #7D73FC;
   color: #f5f5ff;
   cursor: pointer;
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-  width: 89px;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);width: 89px;
   height: 48px;
 }
 
