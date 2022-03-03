@@ -212,12 +212,12 @@ li {
 }
 
 button {
-  background-color: #0000E6;
-  padding: 20px;
-  color: #f5f5ff;
-  border: #7d73fc;
-  font-family: Roboto, sans-serif;
-  transition: 0.6s;
+    background-color: #7D73FC;
+    padding: 20px;
+    color: #fff;
+    border: none;
+    font-family: Roboto, sans-serif;
+    transition: 0.6s;
 }
 
 button:hover {
@@ -287,11 +287,12 @@ textarea {
 }
 
 .form-button {
-  width: 89px;
-  height: 48px;
-  background: #0000E6;
-  align-self: center;
-  margin: 40px 0;
+    background-color: #7D73FC;
+    padding: 20px;
+    color: #fff;
+    border: none;
+    font-family: Roboto, sans-serif;
+    transition: 0.6s;
 }
 
 .form-button:hover {
@@ -299,7 +300,7 @@ textarea {
   color: #f5f5ff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);width: 89px;
-  height: 48px;  
+  height: 48px;
 }
 
 .footer-container {
