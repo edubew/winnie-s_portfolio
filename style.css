@@ -212,7 +212,7 @@ li {
 }
 
 button {
-  background-color: #7d73fc;
+  background-color: #6e63f7;
   padding: 20px;
   color: #fff;
   border: none;
@@ -225,7 +225,7 @@ button {
 }
 
 button:hover {
-  background-color: #7d73fc;
+  background-color: #6e63f7;
   color: #f5f5ff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
@@ -293,14 +293,14 @@ textarea {
 .form-button {
   width: 89px;
   height: 48px;
-  background: #7d73fc;
+  background: ##6e63f7;
   font-weight: 600;
   align-self: center;
   margin: 40px 0;
 }
 
 .form-button:hover {
-  background-color: #7d73fc;
+  background-color: #6e63f7;
   color: #f5f5ff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
