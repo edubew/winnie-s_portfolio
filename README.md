@@ -34,9 +34,8 @@
 
 ## Colaborator
 
-- GitHub: @TahenyBELGUITH
-- Twitter: @BelguithTaheny
-- LinkedIn: belguith taheny
+- Github: https://github.com/tasnimulhasan07
+
 
 ## 🤝 Contributing
 
