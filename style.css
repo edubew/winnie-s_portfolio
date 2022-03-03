@@ -1,5 +1,5 @@
 body {
-  background-color: #191765;
+  background-color: #171555;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -47,7 +47,7 @@ header {
   line-height: 72px;
   text-align: center;
   letter-spacing: 0.37px;
-  color: #7d73fc;
+  color: #6d62fff0;
 }
 
 .header-container h3 {
@@ -212,7 +212,7 @@ li {
 }
 
 button {
-  background-color: #6e63f7;
+  background-color: #6d62fff0;
   padding: 20px;
   color: #fff;
   border: none;
@@ -225,7 +225,7 @@ button {
 }
 
 button:hover {
-  background-color: #6e63f7;
+  background-color: #6d62fff0;
   color: #f5f5ff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
@@ -293,15 +293,15 @@ textarea {
 .form-button {
   width: 89px;
   height: 48px;
-  background: #6e63f7;
+  background: #6d62fff0;
   font-weight: 600;
   align-self: center;
   margin: 40px 0;
 }
 
 .form-button:hover {
-  background-color: #6e63f7;
-  color: #f5f5ff;
+  background-color: #6d62fff0;
+  color: #fff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   width: 89px;
@@ -371,7 +371,7 @@ textarea {
     line-height: 72px;
     text-align: center;
     letter-spacing: 0.37px;
-    color: #7d73fc;
+    color: #6d62fff0;
   }
 
   .header-container h3 {
