@@ -212,20 +212,20 @@ li {
 }
 
 button {
-    background-color: #7D73FC;
-    padding: 20px;
-    color: #fff;
-    border: none;
-    font-family: Roboto, sans-serif;
-    transition: 0.6s;
+  background-color: #7d73fc;
+  padding: 20px;
+  color: #fff;
+  border: none;
+  font-family: Roboto, sans-serif;
+  transition: 0.6s;
 }
 
-.myprojects{
+.myprojects {
   font-weight: 600;
 }
 
 button:hover {
-  background-color: #7D73FC;
+  background-color: #7d73fc;
   color: #f5f5ff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
@@ -293,17 +293,18 @@ textarea {
 .form-button {
   width: 89px;
   height: 48px;
-  background: #7D73FC;
+  background: #7d73fc;
   font-weight: 600;
   align-self: center;
   margin: 40px 0;
 }
 
 .form-button:hover {
-  background-color: #7D73FC;
+  background-color: #7d73fc;
   color: #f5f5ff;
   cursor: pointer;
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);width: 89px;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  width: 89px;
   height: 48px;
 }
 
