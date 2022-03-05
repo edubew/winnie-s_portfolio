@@ -1,5 +1,5 @@
 body {
-  background-color: #191765;
+  background-color: #171555;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -38,7 +38,7 @@ header {
   background-size: cover;
 }
 
-.header-container h2 {
+.header-container h1 {
   height: 55px;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -47,7 +47,7 @@ header {
   line-height: 72px;
   text-align: center;
   letter-spacing: 0.37px;
-  color: #7d73fc;
+  color: #6d62fff0;
 }
 
 .header-container h3 {
@@ -212,17 +212,21 @@ li {
 }
 
 button {
-  background-color: #7d73fc;
-  padding: 10px;
-  color: #f5f5ff;
-  border: #7d73fc;
+  background-color: #8a8aff;
+  padding: 20px;
+  color: #000;
+  border: none;
   font-family: Roboto, sans-serif;
   transition: 0.6s;
 }
 
+.myprojects {
+  font-weight: 600;
+}
+
 button:hover {
-  background-color: #7d73fc;
-  color: #f5f5ff;
+  background-color: #8a8aff;
+  color: #000;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
@@ -289,9 +293,20 @@ textarea {
 .form-button {
   width: 89px;
   height: 48px;
-  background: #7d73fc;
+  background: #8a8aff;
+  color: #000;
+  font-weight: 600;
   align-self: center;
   margin: 40px 0;
+}
+
+.form-button:hover {
+  background-color: #8a8aff;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  width: 89px;
+  height: 48px;
 }
 
 .footer-container {
@@ -357,7 +372,7 @@ textarea {
     line-height: 72px;
     text-align: center;
     letter-spacing: 0.37px;
-    color: #7d73fc;
+    color: #6d62fff0;
   }
 
   .header-container h3 {
