@@ -25,12 +25,12 @@ header {
   color: #fff;
 }
 
-.hamburger{
+.hamburger {
   display: none;
   cursor: pointer;
 }
 
-.bars{
+.bars {
   display: block;
   width: 25px;
   height: 3px;
@@ -352,11 +352,42 @@ textarea {
   display: none;
 }
 
-@media only screen and (max-width: 574px){
-  .hamburger{
+@media only screen and (max-width: 574px) {
+  .hamburger {
     display: block;
   }
-  
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navbarlist {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #edecff;
+    text-align: center;
+    transition: 0.3s;
+    width: 100%;
+  }
+
+  .nav-list {
+    margin: 16px 0;
+  }
+
+  .navbarlist.active {
+    left: 0;
+  }
 }
 
 @media only screen and (min-width: 575px) {

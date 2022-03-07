@@ -10,6 +10,7 @@
 
 - HTML
 - CSS
+- JAVASCRIPT
 - LINTERS
 
 ## Requirements
