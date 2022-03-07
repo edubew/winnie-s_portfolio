@@ -25,6 +25,20 @@ header {
   color: #fff;
 }
 
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bars{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 10px;
+  background-color: #f5f5ff;
+  transition: all 0.3s;
+}
+
 .header-container {
   display: flex;
   flex-direction: column;
@@ -338,6 +352,13 @@ textarea {
   display: none;
 }
 
+@media only screen and (max-width: 574px){
+  .hamburger{
+    display: block;
+  }
+  
+}
+
 @media only screen and (min-width: 575px) {
   ul,
   li a {
@@ -348,6 +369,10 @@ textarea {
 
   .logo > a {
     margin-left: 15px;
+  }
+
+  .navbarlist {
+    display: flex;
   }
 
   .header-container {
