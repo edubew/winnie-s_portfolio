@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  height: 92px;
+  /* height: 92px; */
   top: 0;
   display: flex;
   align-items: center;
@@ -358,7 +358,9 @@ textarea {
 
 @media only screen and (max-width: 574px) {
   .hamburger {
+    position: relative;
     display: block;
+    z-index: 12;
   }
 
   .hamburger.show .bars:nth-child(2) {
@@ -377,10 +379,10 @@ textarea {
     display: block;
     position: fixed;
     left: -100%;
-    top: 1px;
-    height: 555px;
-    background: #191765;
+    height: 5415px;
+    background-color: #171555;
     background-image: url("IMG1/mb-menu-bg.png");
+    background-repeat: no-repeat;
     flex-direction: column;
     text-align: left;
     transition: 0.3s;
@@ -392,24 +394,28 @@ textarea {
     display: none;
   }
 
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .menu > img {
-    width: 8px;
-    height: 14px;
-    margin-right: 30px;
-  }
-
   ul,
   li a {
     text-decoration: none;
     color: #f9f9f9;
     font-size: 1rem;
     margin-right: 20px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu > a {
+    font-weight: 900;
+  }
+
+  .menu > img {
+    width: 8px;
+    height: 14px;
+    margin-right: 30px;
   }
 
   .nav-list {
