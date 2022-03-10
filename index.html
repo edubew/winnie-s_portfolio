@@ -24,12 +24,24 @@
         </div>
 
         <nav>
-            <ul class="hide-in-mobile navbarlist">
-                <li><a href="#" class="nav-list">Portfolio</a></li>
-                <li><a href="#" class="nav-list">About</a></li>
-                <li><a href="#" class="nav-list">Contact</a></li>
+            <ul class="hide-in-mobile navbarlist show">
                 <li>
-                    <a href="edubew98@gmail.com"><img
+                    <div class="menu"><a href="#Portfolio" class="nav-list">Portfolio</a>
+                        <img src="IMG1/arrow.png" alt="">
+                     </div>
+                    </li>
+                <li>
+                    <div class="menu"><a href="#About" class="nav-list">About</a>
+                    <img src="IMG1/arrow.png" alt="">
+                </div>
+                </li>
+                <li>
+                    <div class="menu"><a href="#Contact" class="nav-list">Contact</a>
+                        <img src="IMG1/arrow.png" alt="">
+                    </div>
+                    </li>
+                <li class="msg">
+                    <a href="#Contact"><img
                             src="IMG1/Union.png"
                             alt="mail pic" /></a>
                 </li>
@@ -40,25 +52,23 @@
                 <span class="bars"></span>
             </div>
         </nav>
+   
     </header>
-    <section class="first-section hide-in-desktop show">
-        <div class="header-container">
+    <section class="first-section hide-in-desktop show" id="About">
+        <div class="about-container">
             <h1 class=" hide-in-desktop show ">Winfred Edube
             </h1>
             <h3 class=" hide-in-desktop show ">Software
                 Developer</h3>
         </div>
 
-        <div class="intro-container hide-in-desktop show">
+        <div class="intro-container hide-in-desktop show" >
             <p class="hide-in-desktop show">I can help you
                 build a product , feature or website Look
                 through some of my work and experience! If
                 you like what you see and have a project you
                 need coded, don’t hesitate to contact me.
             </p>
-            <div class="top-divider hide-in-desktop">
-                <img src="IMG1/divider1.png" alt="">
-            </div>
 
             <!-- Technologies section -->
 
@@ -99,14 +109,10 @@
                 </div>
             </div>
 
-            <div class="bottom-divider hide-in-desktop">
-                <img src="./IMG1/divider2.png" alt="">
-            </div>
-
             <!-- Social media area -->
             <div class="social-media-container  show">
                 <div
-                    class="work-image1 hide-in-desktop show">
+                    class="work-image1 hide-in-mobile show">
                     <p>Works</p>
                     <img src="./IMG1/arrow-down.svg" alt="">
                 </div>
@@ -153,7 +159,7 @@
     </section>
 
     <!-- Second section area -->
-    <section>
+    <section id="Portfolio">
         <div class="main-content-area hide-in-desktop show">
             <div class="work-image hide-in-desktop">
                 <img src="IMG1/work-element.png" alt="">
@@ -315,7 +321,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="Contact">
         <div class="form-container">
             <div class="form-intro">
                 <h3 class="hide-in-desktop">CONTACT US</h3>
@@ -385,6 +391,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>

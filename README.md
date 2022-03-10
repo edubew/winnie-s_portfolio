@@ -1,7 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
-> This is my Portfolio
+> In this milestone, I have used javascript events and javascript to manipulate DOM elements in Html page
+
 
 
 ![Screenshot](./IMG1/my-portolio.PNG/)
