@@ -1,11 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
-> In this milestone, I have used javascript events and javascript to manipulate DOM elements in Html page
+> In this milestone, I will create a window pop up using basic javascript syntax and javascript DOM manipulation
 
 
 
-![Screenshot](./IMG1/my-portolio.PNG/)
 
 ## Built With
 
