@@ -10,8 +10,11 @@ body {
   overflow-x: hidden;
 }
 
+#error {
+  color: white;
+}
+
 header {
-  /* height: 92px; */
   top: 0;
   display: flex;
   align-items: center;
@@ -27,7 +30,7 @@ header {
   text-decoration: none;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: white;
 }
 
 .bars {
@@ -151,7 +154,7 @@ li {
   margin: 24px 0;
 }
 
-/* second section */
+/*  second section  */
 
 .work-image {
   width: 77px;
@@ -190,7 +193,7 @@ li {
   margin: 40px 24px;
 }
 
-.text-area h2 {
+.content h2 {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -200,7 +203,7 @@ li {
   margin: 24px 0;
 }
 
-.text-area p {
+.content p {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -403,6 +406,7 @@ textarea {
   }
 
   .menu {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
