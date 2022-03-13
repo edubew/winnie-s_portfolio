@@ -6,7 +6,7 @@ const body = document.querySelector('body');
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('show');
   navbarlist.classList.toggle('show');
-  body.style.overflow = 'hidden';
+  //body.style.overflow = 'hidden';
   if (body.style.width < 574) {
     logo.innerHTML = '';
   }
