@@ -144,7 +144,6 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  position: static;
   width: 200px;
   flex: none;
   margin: 24px 0;
