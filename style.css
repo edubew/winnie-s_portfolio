@@ -141,11 +141,13 @@ li {
 
 .social-media-container ul {
   display: flex;
+  height: 40px;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   width: 200px;
   flex: none;
+  margin-top: 100px;
   margin: 24px 0;
 }
 
