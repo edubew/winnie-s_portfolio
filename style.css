@@ -144,7 +144,8 @@ li {
   height: 40px;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  padding: 20px;
+  justify-content: center;
   width: 200px;
   flex: none;
   margin-top: 100px;
