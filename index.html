@@ -13,11 +13,17 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fe902c9bd7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="window.css">
     <title>Wiinnie's Portfolio</title>
 </head>
 
 <body>
+    <div class="window-popup">
+       
+    </div>
+    <div class="wrapper">
     <header>
         <div class="logo hide-in-desktop show">
             <a href="">John Doe</a>
@@ -112,7 +118,7 @@
             <!-- Social media area -->
             <div class="social-media-container  show">
                 <div
-                    class="work-image1 hide-in-mobile show">
+                    class="work-image1 hide-in-mobile">
                     <p>Works</p>
                     <img src="./IMG1/arrow-down.svg" alt="">
                 </div>
@@ -170,153 +176,7 @@
                 <img src="IMG1/divider-vector.png" alt="">
             </div>
             <div class="main-body hide-in-desktop show">
-                <div
-                    class="projects-container hide-in-desktop show">
-                    <div
-                        class="image-placeholder hide-in-desktop show">
-                        <img src="IMG1/placeholder.png"
-                            alt="">
-                    </div>
-                    <div
-                        class="content hide-in-desktop show">
-                        <div class="text-area">
-                            <h2>Multi-Post Stories</h2>
-                            <p>A daily selection of
-                                privately personalized
-                                reads; no accounts or
-                                sign-ups required. has been
-                                the industry's standard
-                                dummy text ever since the
-                                1500s, when an unknown
-                                printer took a standard
-                                dummy text.</p>
-                        </div>
-                        <ul class="list-tags">
-                            <li class="border-right">css
-                            </li>
-                            <li class="border-right">html
-                            </li>
-                            <li class="border-right">
-                                bootstrap</li>
-                            <li class="border-left">Ruby
-                            </li>
-                        </ul>
-                        <button type="button"
-                            class="myprojects">See
-                            projects</button>
-                    </div>
-                </div>
-
-                <div
-                    class="projects-container hide-in-desktop show">
-                    <div
-                        class="image-placeholder hide-in-desktop show">
-                        <img src="IMG1/placeholder.png"
-                            alt="">
-                    </div>
-                    <div
-                        class="content hide-in-desktop show">
-                        <div class="text-area">
-                            <h2>Multi-Post Stories</h2>
-                            <p>A daily selection of
-                                privately personalized
-                                reads; no accounts or
-                                sign-ups required. has been
-                                the industry's standard
-                                dummy text ever since the
-                                1500s, when an unknown
-                                printer took a standard
-                                dummy text.</p>
-                        </div>
-                        <ul class="list-tags">
-                            <li class="border-right">css
-                            </li>
-                            <li class="border-right">html
-                            </li>
-                            <li class="border-right">
-                                bootstrap</li>
-                            <li class="border-left">Ruby
-                            </li>
-                        </ul>
-                        <button type="button"
-                            class="myprojects">See
-                            projects</button>
-                    </div>
-                </div>
-
-                <div
-                    class="projects-container hide-in-desktop show">
-                    <div
-                        class="image-placeholder hide-in-desktop show">
-                        <img src="IMG1/placeholder.png"
-                            alt="">
-                    </div>
-                    <div
-                        class="content hide-in-desktop show">
-                        <div class="text-area">
-                            <h2>Multi-Post Stories</h2>
-                            <p>A daily selection of
-                                privately personalized
-                                reads; no accounts or
-                                sign-ups required. has been
-                                the industry's standard
-                                dummy text ever since the
-                                1500s, when an unknown
-                                printer took a standard
-                                dummy text.</p>
-                        </div>
-                        <ul class="list-tags">
-                            <li class="border-right">css
-                            </li>
-                            <li class="border-right">html
-                            </li>
-                            <li class="border-right">
-                                bootstrap</li>
-                            <li class="border-left">Ruby
-                            </li>
-                        </ul>
-                        <button type="button"
-                            class="myprojects">See
-                            projects</button>
-                    </div>
-                </div>
-
-                <div
-                    class="projects-container hide-in-desktop show">
-                    <div
-                        class="image-placeholder hide-in-desktop show">
-                        <img src="IMG1/placeholder.png"
-                            alt="">
-                    </div>
-                    <div
-                        class="content hide-in-desktop show">
-                        <div class="text-area">
-                            <h2>Multi-Post Stories</h2>
-                            <p>A daily selection of
-                                privately personalized
-                                reads; no accounts or
-                                sign-ups required. has been
-                                the industry's standard
-                                dummy text ever since the
-                                1500s, when an unknown
-                                printer took a standard
-                                dummy text.</p>
-                        </div>
-                        <ul class="list-tags">
-                            <li class="border-right">css
-                            </li>
-                            <li class="border-right">html
-                            </li>
-                            <li class="border-right">
-                                bootstrap</li>
-                            <li class="border-left">Ruby
-                            </li>
-                        </ul>
-                        <button type="button"
-                            class="myprojects">See
-                            projects</button>
-                    </div>
-                </div>
+            
             </div>
         </div>
     </section>
@@ -332,16 +192,17 @@
                     you need built or a project that needs
                     coding. I’d love to help with it </p>
             </div>
-            <form action="https://formspree.io/f/mvolalaq"
+            <form id="form" action="https://formspree.io/f/mvolalaq"
                 method="POST">
                   <input type="text" name="Username"
                     placeholder="Name" required
                     maxlength="30">
-                <input type="email" name="user-email"
+                <input type="email" id="email" name="user-email"
                     placeholder="Your email" required>
                 <textarea name="message" required
                     maxlength="500"
                     placeholder="Enter your message here"></textarea>
+                    <small></small>
                 <button type="submit"
                     class="form-button">Send</button>
             </form>
@@ -392,5 +253,7 @@
         </div>
     </footer>
     <script src="script.js"></script>
+    <script src="formValidation.js"></script>
+</div>
 </body>
 </html>

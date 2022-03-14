@@ -27,7 +27,7 @@ header {
   text-decoration: none;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: white;
 }
 
 .bars {
@@ -141,17 +141,17 @@ li {
 
 .social-media-container ul {
   display: flex;
+  height: 40px;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  position: static;
+  padding: 20px;
+  justify-content: center;
   width: 200px;
-  height: 40px;
   flex: none;
-  margin: 24px 0;
+  margin-top: 100px;
 }
 
-/* second section */
+/*  second section  */
 
 .work-image {
   width: 77px;
@@ -190,7 +190,7 @@ li {
   margin: 40px 24px;
 }
 
-.text-area h2 {
+.content h2 {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -200,7 +200,7 @@ li {
   margin: 24px 0;
 }
 
-.text-area p {
+.content p {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -403,6 +403,7 @@ textarea {
   }
 
   .menu {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
