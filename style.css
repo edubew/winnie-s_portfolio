@@ -145,7 +145,7 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  width: 100vh;
+  width: 200px;
   flex: none;
   margin-top: 100px;
 }
