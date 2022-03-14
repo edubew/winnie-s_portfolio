@@ -145,10 +145,9 @@ li {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  width: 200px;
+  width: 100vh;
   flex: none;
   margin-top: 100px;
-  margin: 24px 0;
 }
 
 /*  second section  */
